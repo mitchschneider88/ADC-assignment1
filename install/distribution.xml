@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-gui-script minSpecVersion="1">
+    <pkg-ref id="com.phillips_assignment1.pkgvst3"/>
+    <options customize="never" require-scripts="false" hostArchitectures="x86_64,arm64"/>
+    <choices-outline>
+        <line choice="default">
+            <line choice="com.phillips_assignment1.pkgvst3"/>
+        </line>
+    </choices-outline>
+    <choice id="default"/>
+    <choice id="com.phillips_assignment1.pkgvst3" visible="false">
+        <pkg-ref id="com.phillips_assignment1.pkgvst3"/>
+    </choice>
+    <pkg-ref id="com.phillips_assignment1.pkgvst3" version="1.0" onConclusion="none">Phillips_Assignment1_vst3.pkg</pkg-ref>
+</installer-gui-script>
